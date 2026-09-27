@@ -1,0 +1,31 @@
+﻿variable,type,description,present_dans_test
+reservation_id,identifiant,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+date_reservation,date,Date connue lors de l'enregistrement ; sert a ordonner les observations,oui
+date_arrivee,date,Date d'arrivee prevue lors de l'enregistrement,oui
+region_hotel,categorie,Communaute autonome espagnole de l'hotel ; profils simules,oui
+ville,categorie,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+type_destination,categorie,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+hotel_id,categorie,Identifiant stable d'un etablissement fictif,oui
+categorie_hotel,numerique,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+segment_client,categorie,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+marche_origine,categorie,Zone commerciale large ; pas une nationalite,oui
+canal_reservation,categorie,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+moyen_transport,categorie,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+delai_reservation_jours,numerique,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+nuits,numerique,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+adultes,numerique,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+enfants,numerique,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+chambres,numerique,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+tarif_remboursable,categorie,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+type_acompte,categorie,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+prix_moyen_nuit_eur,numerique,Prix affiche en euros ; parfois manquant,oui
+remise_pct,numerique,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+montant_total_eur,numerique,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+client_type,categorie,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+reservations_passees,numerique,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+annulations_passees,numerique,Historique anterieur a la reservation courante,oui
+demandes_speciales,numerique,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+evenement_majeur,numerique,Evenement local connu a la date de reservation,oui
+haute_saison_regionale,numerique,Haute saison simulee de la region a la date d'arrivee,oui
+arrivee_weekend,numerique,Variable connue lors de la reservation ; voir le nom et les valeurs,oui
+reservation_annulee,cible,1 = annulee ; 0 = maintenue,non
